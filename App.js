@@ -19,7 +19,7 @@ export default function App() {
       setText('Your guess ' + guess + ' is too high');
       setCount(count + 1);
     } else if (guess == number) {
-      Alert.alert('You guessed the number in : '+ count + ' guesses');
+      Alert.alert('You guessed the number in : '+ (count + 1) + ' guesses');
     }
     setGuess('');
   }
